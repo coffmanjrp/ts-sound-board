@@ -1,0 +1,19 @@
+@import 'config';
+
+.btn {
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  background: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #fff;
+  &:focus {
+    outline: none;
+    cursor: pointer;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}
